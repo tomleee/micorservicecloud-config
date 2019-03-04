@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring
+  profiles: dev
+  application:
+    name: microservicecloud-config-myself-dev
+---
+spring
+  profiles: dev
+  application:
+    name: microservicecloud-config-myself-test
+# 请保存UTF-8格式
