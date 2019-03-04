@@ -3,12 +3,12 @@ spring:
     active:
     - dev
 ---
-spring
+spring:
   profiles: dev
   application:
     name: microservicecloud-config-myself-dev
 ---
-spring
+spring:
   profiles: test
   application:
     name: microservicecloud-config-myself-test
